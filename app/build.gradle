@@ -53,6 +53,6 @@ dependencies {
     implementation 'com.huawei.hms:safetydetect:4.0.3.300'
     implementation 'com.huawei.hms:ml-computer-vision-bcr:2.0.0.300' //BankCard Base SDK
     implementation 'com.huawei.hms:ml-computer-card-bcr-plugin:2.0.0.300'  //BankCard Pulgin
-    implementation 'com.huawei.hms:location:4.0.3.301'// location huawei
+    implementation 'com.huawei.hms:location:5.0.0.301'// location huawei
 
 }
