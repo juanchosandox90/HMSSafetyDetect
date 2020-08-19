@@ -131,7 +131,7 @@ class SafetyDetectUrlCheckAPIFragment : Fragment(), OnItemSelectedListener,
                     // Unknown type of error has occurred.
                     e.message
                 }
-                Log.d(TAG, errorMsg)
+                Log.d(TAG, errorMsg!!)
                 Toast.makeText(
                     activity.applicationContext,
                     errorMsg,

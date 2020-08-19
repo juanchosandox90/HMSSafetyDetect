@@ -87,7 +87,7 @@ class SafetyDetectSysIntegrityAPIFragment : Fragment(), View.OnClickListener {
                     // Unknown type of error has occurred.
                     e.message
                 }
-                Log.e(TAG, errorMsg)
+                Log.e(TAG, errorMsg!!)
                 Toast.makeText(
                     activity.applicationContext,
                     errorMsg,
@@ -108,6 +108,6 @@ class SafetyDetectSysIntegrityAPIFragment : Fragment(), View.OnClickListener {
 
     companion object {
         val TAG = SafetyDetectSysIntegrityAPIFragment::class.java.simpleName
-        private const val APP_ID = "101324691"
+        private const val APP_ID = "102672053"
     }
 }
